@@ -13,7 +13,14 @@ public class Main {
         specialChars();
         arrays();
         matrix();
+        consts();
 
+    }
+
+    private static void consts() {
+        // constants should be upper case
+        final float PI = 3.14F;
+        System.out.println(PI);
     }
 
     private static void matrix() {
