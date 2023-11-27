@@ -8,6 +8,18 @@ public class Main {
         variables();
         referenceType();
         strings();
+        specialChars();
+    }
+
+    private static void specialChars() {
+        String message = "Hello \"Mosh\"";
+        System.out.println(message);
+        String path = "c:\\Windows\\abc\\ee";
+        System.out.println(path);
+        String enterMessage = "c:\nWindows\nabc\nee";
+        System.out.println(enterMessage);
+        String tabMessage = "c:\tWindows\tabc\tee";
+        System.out.println(enterMessage);
     }
 
     private static void strings() {
