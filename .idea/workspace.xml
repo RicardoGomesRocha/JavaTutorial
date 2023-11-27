@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="Organize Code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="User Input">
+      <change afterPath="$PROJECT_DIR$/src/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvanceConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvanceConcepts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701082525586</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="User Input">
+      <option name="closed" value="true" />
+      <created>1701083041799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701083041799</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +210,7 @@
     <MESSAGE value="Math package" />
     <MESSAGE value="Format numbers" />
     <MESSAGE value="Organize Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organize Code" />
+    <MESSAGE value="User Input" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Input" />
   </component>
 </project>

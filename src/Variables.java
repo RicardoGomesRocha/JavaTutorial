@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Variables {
 
-    public static void print() {
+    public static void call() {
         variables();
         referenceType();
         strings();

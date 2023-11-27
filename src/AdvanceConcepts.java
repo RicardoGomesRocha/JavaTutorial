@@ -1,7 +1,7 @@
 import java.text.NumberFormat;
 
 public class AdvanceConcepts {
-    public static void print() {
+    public static void call() {
         arithmeticOperations();
         casting();
         math();
