@@ -5,6 +5,7 @@ public class Main {
         Variables.print();
         arithmeticOperations();
         casting();
+        math();
     }
 
     private static void arithmeticOperations() {
@@ -51,5 +52,28 @@ public class Main {
 
         float floater = Float.parseFloat("1.2");
         System.out.println(floater);
+    }
+
+    private static void math() {
+        int round = Math.round(1.1F);
+        System.out.println(round);
+
+        int ceil = (int)Math.ceil(1.1F);
+        System.out.println(ceil);
+
+        int floor = (int)Math.floor(1.1f);
+        System.out.println(floor);
+
+        int min = Math.min(1,2);
+        System.out.println(min);
+
+        int max = Math.max(1,2);
+        System.out.println(max);
+
+        double random = (double)Math.random();
+        System.out.println(random);
+
+        int randomInt = (int)Math.round(Math.random() * 100);
+        System.out.println(randomInt);
     }
 }
