@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Variables.print();
         arithmeticOperations();
+        casting();
     }
 
     private static void arithmeticOperations() {
@@ -27,5 +28,28 @@ public class Main {
         int decrease = 3;
         decrease--;
         System.out.println(decrease);
+    }
+
+    private static void casting() {
+        // Implicit casting
+        // byte > short > int > long > double
+        short x = 1;
+        int y = x + 2;
+        System.out.println(y);
+
+        double z = 1.1;
+        double p = z + 2;
+        System.out.println(p);
+
+        // Explicit casting
+        int cas = (int)z + 2;
+        System.out.println(cas);
+
+        String string = "1";
+        int integer = Integer.parseInt(string);
+        System.out.println(integer);
+
+        float floater = Float.parseFloat("1.2");
+        System.out.println(floater);
     }
 }
