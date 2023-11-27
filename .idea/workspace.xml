@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="User Input">
-      <change afterPath="$PROJECT_DIR$/src/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdvanceConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvanceConcepts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.java" afterDir="false" />
+    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="Organize code">
+      <change afterPath="$PROJECT_DIR$/src/MortgageCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2YkkuUIxuojpPG1X1mEH3L8DJZP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -196,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701083041799</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Organize code">
+      <option name="closed" value="true" />
+      <created>1701083164378</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701083164378</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +221,18 @@
     <MESSAGE value="Format numbers" />
     <MESSAGE value="Organize Code" />
     <MESSAGE value="User Input" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Input" />
+    <MESSAGE value="Organize code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organize code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MortgageCalculator.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

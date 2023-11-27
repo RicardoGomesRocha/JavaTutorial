@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Variables.print();
         // AdvanceConcepts.print();
-        UserInput.call();
+       // UserInput.call();
+        MortgageCalculator.call();
     }
 }
