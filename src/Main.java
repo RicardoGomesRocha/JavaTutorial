@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Date;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -5,6 +6,16 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         variables();
+        referenceType();
+    }
+
+    private static void referenceType() {
+        Point point1 = new Point(1, 1);
+        Point point2 = point1;
+        point1.x = 2;
+        point2.y = 3;
+        System.out.println(point1);
+        System.out.println(point2);
     }
 
     private static void variables() {
