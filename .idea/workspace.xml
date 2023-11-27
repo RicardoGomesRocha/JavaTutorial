@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="Casting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6fcb51ac-bde5-4b9b-a8f8-3d3c3b90a97b" name="Changes" comment="Math package">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701081333139</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Math package">
+      <option name="closed" value="true" />
+      <created>1701082059884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701082059884</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +181,7 @@
     <MESSAGE value="Consts" />
     <MESSAGE value="Arithmetic Operations" />
     <MESSAGE value="Casting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Casting" />
+    <MESSAGE value="Math package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math package" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+import java.text.NumberFormat;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -6,6 +8,7 @@ public class Main {
         arithmeticOperations();
         casting();
         math();
+        formatNumbers();
     }
 
     private static void arithmeticOperations() {
@@ -75,5 +78,13 @@ public class Main {
 
         int randomInt = (int)Math.round(Math.random() * 100);
         System.out.println(randomInt);
+    }
+
+    private  static void formatNumbers() {
+        String result = NumberFormat.getCurrencyInstance().format(12345.891);
+        System.out.println(result);
+
+        result = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result);
     }
 }
